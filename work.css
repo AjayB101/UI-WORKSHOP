@@ -2,11 +2,15 @@ body{
     background-color:rgba(22, 34, 68, 0.966);
 }
 .AKS{
-    margin: auto;
     padding: 30px;
     border-radius: 5px;
     background-color:rgba(54, 65, 95, 0.966);
     width: 300px;
+}
+.image{
+    object-fit: contain;
+    height:auto;
+    width: auto;
 }
 .header{
     color: white;
@@ -34,4 +38,14 @@ body{
 .footer{
     color: white;
     margin-top: 10px;
+    display: flex;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.img{
+    border-radius: 10px;
 }
