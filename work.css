@@ -1,19 +1,37 @@
-html body{
-    padding: 0px;
-    margin: 0px;
+body{
+    background-color:rgba(22, 34, 68, 0.966);
 }
-.hi{
-    margin: 10px;
+.AKS{
+    margin: auto;
+    padding: 30px;
     border-radius: 5px;
-    padding: 20px;
-    cursor: pointer;
-    background-color: blue;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 900px;
-    font-size: 30px;
+    background-color:rgba(54, 65, 95, 0.966);
+    width: 300px;
 }
-.hi:hover{
-    color: rgb(0, 0, 0);
-    background-color: aqua;
+.header{
+    color: white;
+}
+.text{
+    color: gray;
+}
+.text{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.textt{
+    color: cyan;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+   
+}
+.textt label{
+    margin-bottom: 10px;
+}
+.a{
+    color: gray;
+}
+.footer{
+    color: white;
+    margin-top: 10px;
 }
